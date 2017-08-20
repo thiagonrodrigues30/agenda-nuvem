@@ -1,0 +1,87 @@
+.back-ini{
+	background:url("../img_sys/wallhaven-177880.jpg") no-repeat; 
+	min-width:100%;
+	background-size: cover;
+}
+
+.vertical-align {
+	margin-top: 17%;
+}
+
+
+/* Pulse Grow */
+@-webkit-keyframes hvr-pulse-grow {
+  to {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+
+@keyframes hvr-pulse-grow {
+  to {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+
+.pulse-grow {
+  /*display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;*/
+
+  -webkit-animation-name: hvr-pulse-grow;
+  animation-name: hvr-pulse-grow;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+/*
+.hvr-pulse-grow:hover, .hvr-pulse-grow:focus, .hvr-pulse-grow:active {
+  -webkit-animation-name: hvr-pulse-grow;
+  animation-name: hvr-pulse-grow;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+*/
+
+.btn-size1 {
+  width: 140px; 
+  height: 40px;
+}
+
+.date-config {
+  width:70px; 
+  display:inline-block;
+}
+
+.contact-img-size {
+  width: 182.5px; 
+  height: 237.5px;
+}
+
+.big-icon {
+  font-size: 15px;
+  padding: 2px;
+}
+
+.line {
+      color: #A9A9A9;
+      background-color: #A9A9A9;
+      height: 1px;
+}
